@@ -1,0 +1,64 @@
+.Entreprises{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    background-color: #ffffff;
+    /* box-shadow: 2px 10px 5px 5px rgba(14, 14, 14, 0.692); */
+    box-shadow: 2px 10px 5px 5px rgba(255, 255, 255, 0.692);
+    border-top: 1px solid rgba(14, 14, 14, 0.692);
+}
+.entreprise__txt{
+    padding: 4rem;
+    width: 90%;
+    text-align: justify;
+
+}
+.collaboration{
+    width: 10%;
+    column-count: 1; /* Définit le nombre de colonnes */
+    column-gap: 20px;
+    padding: 2rem;
+    background-color: rgb(29, 29, 29);
+}
+.collaboration img{
+    width: 100%;
+    margin: 1rem 0;
+}
+.valeurs{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.valeur{
+    width: 30%;
+    text-align: justify;
+    
+}
+.valeur h2{
+    margin: 1rem 0;
+    text-align: center;
+}
+.valeur p{
+    margin-bottom: 1rem;
+}
+#mid {
+    border-left: 1px solid black; /* Ajoute une ligne noire d'1 pixel à gauche */
+    border-right: 1px solid black; /* Ajoute une ligne noire d'1 pixel à droite */
+    padding: 0 1rem;
+}
+.info{
+    padding: 1rem;
+    color: #e0e0e0;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+    box-shadow: 2px 10px 5px 5px rgba(41, 41, 41, 0.692);
+    border-radius: 5px;
+}
+.info a{
+    color: black;
+}
+.info a:hover{
+    border-bottom: 1px solid black;
+}

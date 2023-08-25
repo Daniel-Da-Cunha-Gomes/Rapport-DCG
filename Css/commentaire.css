@@ -1,0 +1,80 @@
+/* Réinitialisation des marges et des paddings */
+body, h1, h2, p, form, label, input, textarea {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles de base pour le corps de la page */
+  body {
+    font-family: Arial, sans-serif;
+    
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* En-tête de la page */
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Formulaire */
+  form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Libellés du formulaire */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Champ de texte et zone de texte */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Bouton du formulaire */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles lorsque le bouton est survolé */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles pour les erreurs ou les messages de succès */
+  .message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  
+  .error {
+    background-color: #ffcccc;
+    color: #d60000;
+  }
+  
+  .success {
+    background-color: #ccffcc;
+    color: #009900;
+  }
+  

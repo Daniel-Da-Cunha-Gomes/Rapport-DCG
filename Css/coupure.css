@@ -1,0 +1,9 @@
+.coupure{
+    background-image: url(/IMG/Couper.jpeg);
+    width: auto;
+    height: 8rem;
+    margin: 5rem 0;
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir l'élément */
+    background-position: center; /* Positionne l'image au centre de l'élément */
+    background-repeat: no-repeat;
+}
